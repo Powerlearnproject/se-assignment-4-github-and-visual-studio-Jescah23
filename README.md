@@ -29,6 +29,7 @@ Essential elements in a repository include:
 •	.gitignore: A file specifying untracked files to ignore.
 •	src/: Source code directory.
 •	tests/: Testing code directory.
+
 Version Control with Git
 Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?
 
@@ -66,6 +67,7 @@ Steps to create and review a PR:
 3.	Review changes: Reviewers comment and request changes if necessary.
 4.	Address feedback: Make additional commits to address feedback.
 5.	Merge PR: Once approved, merge the changes into the main branch.
+
 GitHub Actions
 Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
 GitHub Actions is a CI/CD platform that automates workflows. It uses YAML configuration files to define workflows triggered by events such as pushes, pull requests, or scheduled tasks.
@@ -99,6 +101,7 @@ jobs:
     - name: Deploy
       run: npm run deploy
       if: github.ref == 'refs/heads/main'
+
 Introduction to Visual Studio
 What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code?
 Visual Studio is an integrated development environment (IDE) from Microsoft. Key features include:
@@ -108,6 +111,7 @@ Visual Studio is an integrated development environment (IDE) from Microsoft. Key
 •	Extensions: A wide range of plugins to enhance functionality.
 •	Team collaboration: Integrated tools for source control and work tracking.
 Visual Studio differs from Visual Studio Code in that it is a full-featured IDE primarily for .NET development, while Visual Studio Code is a lightweight, extensible code editor supporting multiple languages and frameworks.
+
 Integrating GitHub with Visual Studio
 Describe the steps to integrate a GitHub repository with Visual Studio. How does this integration enhance the development workflow?
 Steps to integrate a GitHub repository with Visual Studio:
